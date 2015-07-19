@@ -1,0 +1,50 @@
+.boxes
+{
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+
+  cursor: default;
+}
+
+.box
+{
+  width: 100%/13%;
+  height: 100%;
+  float: left;
+
+  background-color: #d0d0d0;
+
+  &:nth-child(2n) {
+    background-color: #f4f4f4;
+  }
+}
+
+
+
+.overlay
+{
+  position: absolute;
+  left: 0; right: 0;
+}
+
+.overlay--1
+{
+  top: 25%;
+  bottom: 50%;
+  background-color: rgba(255,0,0, 0.2);
+}
+
+.overlay--2
+{
+  top: 50%;
+  bottom: 25%;
+  background-color: rgba(255,0,0, 0.4);
+}
+
+.overlay--3
+{
+  top: 75%;
+  bottom: 0;
+  background-color: rgba(255,0,0, 0.6);
+}

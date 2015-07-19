@@ -1,0 +1,75 @@
+@import 'buttons.less';
+@import 'boxes.less';
+@import 'sequencer.less';
+
+*
+{
+  box-sizing: border-box;
+}
+
+body, html
+{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Andale Mono', monospace;
+  font-size: 18px;
+  text-align: center;
+
+  cursor: default;
+}
+
+h3
+{
+  display: inline-block;
+  margin: 0;
+  padding: 1em;
+
+  background-color: white;
+  -webkit-user-select: none;
+}
+
+p
+{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 2em;
+
+  line-height: 1.5em;
+  text-align: left;
+}
+
+a
+{
+  padding: 0.1em 0.25em;
+  background-color: #FF4D51;
+
+  text-decoration: none;
+  color: white;
+
+  &:hover
+  {
+    background-color: darken(#FF4D51, 10%);
+  }
+}
+
+.intro
+{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+ul
+{
+  list-style-type: none;
+
+  text-align: left;
+
+  li
+  {
+    line-height: 1.5em;
+  }
+}
+
+
