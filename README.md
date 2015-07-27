@@ -12,5 +12,5 @@ Todo:
 - [x] Using Math to Make Notes
 - [x] Scheduling Things in Advance
 - [x] Continuous Sequencing
-- [ ] Playing Samples
+- [x] Playing Samples
 - [ ] Manipulating Samples
