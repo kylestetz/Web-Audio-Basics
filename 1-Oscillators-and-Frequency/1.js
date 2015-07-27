@@ -27,7 +27,7 @@ $( function() {
     // set its type
     oscillator.type = 'sine'; // sine, triangle, sawtooth, square
     // set its frequency in Hertz
-    oscillator.frequency.value = 440;
+    // oscillator.frequency.value = 334;
     // connect it to the output
     oscillator.connect(context.destination);
     // play it!
