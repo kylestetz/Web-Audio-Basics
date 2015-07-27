@@ -8,9 +8,9 @@ This repo serves as a starting point for tinkering with the web audio API. You'l
 Each folder contains its own README with a codepen link and a short description of what's happening in the sketch.
 
 Todo:
-[x] Oscillators and Frequency
-[x] Using Math to Make Notes
-[x] Scheduling Things in Advance
-[x] Continuous Sequencing
-[ ] Playing Samples
-[ ] Manipulating Samples
+- [x] Oscillators and Frequency
+- [x] Using Math to Make Notes
+- [x] Scheduling Things in Advance
+- [x] Continuous Sequencing
+- [ ] Playing Samples
+- [ ] Manipulating Samples
