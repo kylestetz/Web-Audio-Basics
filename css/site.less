@@ -1,6 +1,9 @@
 @import 'buttons.less';
 @import 'boxes.less';
 @import 'sequencer.less';
+@import 'jquery-ui/_index.less';
+
+@red: #FF4D51;
 
 *
 {
@@ -43,14 +46,14 @@ p
 a
 {
   padding: 0.1em 0.25em;
-  background-color: #FF4D51;
+  background-color: @red;
 
   text-decoration: none;
   color: white;
 
   &:hover
   {
-    background-color: darken(#FF4D51, 10%);
+    background-color: darken(@red, 10%);
   }
 }
 
