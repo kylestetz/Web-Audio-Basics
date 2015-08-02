@@ -13,4 +13,7 @@ Todo:
 - [x] Scheduling Things in Advance
 - [x] Continuous Sequencing
 - [x] Playing Samples
-- [ ] Manipulating Samples
+- [x] Manipulating Samples
+- [ ] The QWERTY Keyboard
+- [ ] ASDR Envelopes
+- [ ] A Delay Effect
