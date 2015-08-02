@@ -1,6 +1,3 @@
-# 5 - Playing Samples
+# 6 - Manipulating Samples
 
-In this sketch we play a sample, no frills. The code for loading them has been adapted from the [Getting Started with Web Audio](http://www.html5rocks.com/en/tutorials/webaudio/intro/) article by Boris Smus. Worth a read!
-
-Codepen:
-http://codepen.io/kylestetz/pen/jPQEPo
+In this sketch we loop a drum sample and control its playback speed and loop points. jQuery UI is used for the sliders.
